@@ -1,0 +1,603 @@
+/*
+ *装修样式常用类
+ */
+.m-xs {
+  margin: 5px;
+}
+
+.m-sm {
+  margin: 10px;
+}
+
+.m {
+  margin: 15px;
+}
+
+.m-md {
+  margin: 20px;
+}
+
+.m-lg {
+  margin: 30px;
+}
+
+.m-xl {
+  margin: 50px;
+}
+
+.m-none {
+  margin: 0;
+}
+
+.m-l-xs {
+  margin-left: 5px;
+}
+
+.m-l-sm {
+  margin-left: 10px;
+}
+
+.m-l {
+  margin-left: 15px;
+}
+
+.m-l-md {
+  margin-left: 20px;
+}
+
+.m-l-xxl {
+  margin-left: 50px;
+}
+
+.m-l-n-10 {
+  margin-left: -10px;
+}
+
+.m-l-n-20 {
+  margin-left: -20px;
+}
+
+.m-l-lg {
+  margin-left: 30px;
+}
+
+.m-l-xl {
+  margin-left: 40px;
+}
+
+.m-r-xs {
+  margin-right: 5px;
+}
+
+.m-r-sm {
+  margin-right: 10px;
+}
+
+.m-r {
+  margin-right: 15px;
+}
+
+.m-r-16 {
+  margin-right: 16px;
+}
+
+.m-r-md {
+  margin-right: 20px;
+}
+
+.m-r-lg {
+  margin-right: 30px;
+}
+
+.m-r-xl {
+  margin-right: 40px;
+}
+
+.m-t-sm {
+  margin-top: 10px;
+}
+
+.m-t-md {
+  margin-top: 20px;
+}
+
+.m-t-xl {
+  margin-top: 40px;
+}
+
+.m-t {
+  margin-top: 15px;
+}
+
+.m-t-n-sm {
+  margin-top: -10px;
+}
+
+.m-t-n-xs {
+  margin-top: -5px;
+}
+
+.m-b-sm {
+  margin-bottom: 10px !important;
+}
+
+.m-b {
+  margin-bottom: 15px;
+}
+
+.m-b-md {
+  margin-bottom: 20px !important;
+}
+
+.m-b-lg {
+  margin-bottom: 30px;
+}
+
+//padding
+.padding-xs {
+  padding: 5px;
+}
+
+.padding-sm {
+  padding: 10px;
+}
+
+.padding {
+  padding: 15px;
+}
+
+.padding-md {
+  padding: 20px;
+}
+
+.padding-lg {
+  padding: 30px;
+}
+
+.padding-xl {
+  padding: 50px;
+}
+
+.padding-none {
+  padding: 0;
+}
+
+.padding-l-xs {
+  padding-left: 5px;
+}
+
+.padding-l-sm {
+  padding-left: 10px;
+}
+
+.padding-l {
+  padding-left: 15px;
+}
+
+.padding-l-md {
+  padding-left: 20px;
+}
+
+.padding-l-lg {
+  padding-left: 30px;
+}
+
+.padding-l-xl {
+  padding-left: 40px;
+}
+
+.padding-r-xs {
+  padding-right: 5px;
+}
+
+.padding-r-sm {
+  padding-right: 10px;
+}
+
+.padding-r {
+  padding-right: 15px;
+}
+
+.padding-r-md {
+  padding-right: 20px;
+}
+
+.padding-r-lg {
+  padding-right: 30px;
+}
+
+.padding-r-xl {
+  padding-right: 40px;
+}
+
+.clearfix {
+  &::before,
+  &::after {
+    display: table;
+    content: '';
+  }
+
+  &::after {
+    clear: both;
+  }
+}
+
+.pos-rlt {
+  position: relative;
+}
+
+.pos-stc {
+  position: static !important;
+}
+
+.pos-abt {
+  position: absolute;
+}
+
+.pos-fix {
+  position: fixed;
+}
+
+.pos-t-0 {
+  top: 0 !important;
+}
+
+.pos-t-10 {
+  top: 10px !important;
+}
+
+.pos-t-20 {
+  top: 20px !important;
+}
+
+.pos-t-30 {
+  top: 30px !important;
+}
+
+.pos-t-40 {
+  top: 40px !important;
+}
+
+.pos-t-50 {
+  top: 50px !important;
+}
+
+.pos-b-0 {
+  bottom: 0 !important;
+}
+
+.pos-b-10 {
+  bottom: 10px !important;
+}
+
+.pos-b-20 {
+  bottom: 20px !important;
+}
+
+.pos-l-0 {
+  left: 0 !important;
+}
+
+.pos-l-1 {
+  left: 1px !important;
+}
+
+.pos-l-10 {
+  left: 10px !important;
+}
+
+.pos-l-20 {
+  left: 20px !important;
+}
+
+.pos-l-30 {
+  left: 30px !important;
+}
+
+.pos-l-50 {
+  left: 50px !important;
+}
+
+.pos-r-0 {
+  right: 0 !important;
+}
+
+.pos-r-10 {
+  right: 10px !important;
+}
+
+.pos-r-20 {
+  right: 20px !important;
+}
+
+.pos-r-30 {
+  right: 30px !important;
+}
+
+.text-danger {
+  color: @color-brand-red;
+}
+
+.text-warning {
+  color: @color-brand-yellow;
+}
+
+.text-success {
+  color: @color-brand-green;
+}
+
+.text-primary {
+  color: @icon-base-color;
+}
+
+.text-gray-3 {
+  color: #9797a1;
+}
+
+.text-gray-1 {
+  color: @color-T-gray1;
+}
+
+.text-12 {
+  font-size: 14px;
+}
+
+.text-14 {
+  font-size: 14px;
+}
+
+.text-16 {
+  font-size: 16px;
+}
+
+.text-18 {
+  font-size: 18px;
+}
+
+.text-20 {
+  font-size: 20px;
+}
+
+.font-weight {
+  font-weight: bold;
+}
+
+.text-ellipsis {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.text-ellipsis-b {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.text-ellipsis-2 {
+  display: -webkit-box; //弹性盒模型
+  width: 100%; //宽度
+  overflow: hidden; //超出文本隐藏
+  text-overflow: ellipsis; ///超出部分省略号显示
+  -webkit-box-orient: vertical; //上下垂直
+  -webkit-line-clamp: 2; //自定义行数
+}
+
+.word-break {
+  display: block;
+  word-break: break-all;
+}
+
+.r {
+  border-radius: @border-radius-small;
+}
+
+.r-2x {
+  border-radius: @border-radius-small * 2;
+}
+
+.r-3x {
+  border-radius: @border-radius-small * 3;
+}
+
+.r-4x {
+  border-radius: @border-radius-small * 4;
+}
+
+.r-5x {
+  border-radius: @border-radius-small * 5 !important;
+}
+
+.r-10x {
+  border-radius: @border-radius-small* 10 !important;
+}
+
+.bg-primary {
+  background: @icon-base-color;
+}
+
+.bg-gray {
+  background: @color-Bg-gray1;
+}
+
+.w100 {
+  width: 100px;
+}
+
+.w150 {
+  width: 150px;
+}
+
+.w200 {
+  width: 200px;
+}
+
+.w300 {
+  width: 300px;
+}
+
+.max-height-300 {
+  max-height: 300px;
+}
+
+//外层弹框的宽度
+
+.common-wrapper {
+  min-height: 100% !important;
+  padding: 20px 20px 80px !important;
+  background-color: #fff !important;
+  border-radius: 3px !important;
+}
+
+.letter-space-2 {
+  height: calc(100vh - 189px);
+  letter-spacing: 2px;
+}
+
+.l-h-30 {
+  line-height: 30px;
+}
+
+.scroll-auto {
+  overflow: auto;
+}
+
+//编辑的颜色
+.edit-color {
+  color: @color-brand1-accessible-active !important;
+  cursor: pointer;
+}
+
+.hover-color {
+  color: '#435c71';
+
+  &:hover {
+    color: @color-brand1-accessible-active;
+  }
+}
+
+//删除的颜色
+.del-color {
+  color: @color-brand-red !important;
+}
+
+//不可编辑的颜色
+.disabled-color {
+  color: @color-grey4 !important;
+}
+
+//对分割线进行了样式重写
+.ant-divider-horizontal {
+  margin: 10px 0 !important;
+}
+
+.cur-pointer {
+  cursor: pointer;
+}
+
+//重写一下gropup头的样式
+.ant-pro-form-group-title {
+  font-weight: normal !important;
+}
+
+// 弹窗限高
+.modalMaxHeight {
+  .@{ant-prefix}-modal-body {
+    max-height: 500px; //修改原因是分辨率问题
+    overflow: auto;
+  }
+}
+
+.max-modal-zindex {
+  z-index: 1001 !important;
+}
+
+// 样式重置
+.ant-input-affix-wrapper::before {
+  content: '' !important;
+}
+
+.btn-edit {
+  color: @color-brand1-accessible-active !important;
+}
+
+// 全局共用样式
+.report-common-wrapper {
+  box-sizing: border-box;
+  min-height: 100vh;
+  padding: 24px;
+  background-color: white;
+}
+
+// 宽度限制
+.minWidthWarp75 {
+  min-width: 75px;
+}
+
+.minWidthWarp100 {
+  min-width: 100px;
+}
+
+.minWidthWarp120 {
+  min-width: 100px;
+}
+
+.minWidthWarp150 {
+  min-width: 100px;
+}
+
+.minWidthWarp200 {
+  min-width: 200px;
+}
+
+.minWidthWarp300 {
+  min-width: 300px;
+}
+
+.maxWidthWarp75 {
+  max-width: 75px;
+}
+
+.maxWidthWarp100 {
+  max-width: 100px;
+}
+
+.maxWidthWarp120 {
+  max-width: 120px;
+}
+
+.maxWidthWarp150 {
+  max-width: 150px;
+}
+
+.maxWidthWarp200 {
+  max-width: 200px;
+}
+
+// 灰色背景
+.common-bg-gray {
+  background-color: #f5f5f5;
+}
+
+// 白色背景
+.common-bg {
+  background-color: #fff;
+}
+
+// 控制portable的统一间距
+.common-table-space {
+  .@{ant-prefix}-pro-table-search {
+    padding: 16px;
+    padding-bottom: 0px;
+  }
+
+  .@{ant-prefix}-form-item {
+    margin-bottom: 16px;
+  }
+
+  .@{ant-prefix}-card-body {
+    padding: 16px;
+  }
+}
