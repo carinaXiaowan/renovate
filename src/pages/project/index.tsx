@@ -6,7 +6,7 @@ import { columns } from './schema';
 import { TableListItem } from './interface';
 import './index.less';
 
-const Home = (props: any) => {
+const Project = (props: any) => {
   return (
     <div className="home-wrap">
       <ProTable<TableListItem>
@@ -18,7 +18,7 @@ const Home = (props: any) => {
         search={false}
         options={false}
         dateFormatter="string"
-        headerTitle="首页"
+        headerTitle="项目列表"
         toolBarRender={() => [
           <Button key="show">查看日志</Button>,
           <Button key="out">
@@ -34,4 +34,4 @@ const Home = (props: any) => {
   );
 };
 
-export default memo(Home);
+export default memo(Project);

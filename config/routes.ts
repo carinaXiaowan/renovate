@@ -10,10 +10,10 @@ export const routes = [
         component: '@/pages/home',
       },
       {
-        path: '/list',
-        name: '列表',
+        path: '/project',
+        name: '项目',
         icon: 'icon-facebook',
-        component: '@/pages/list',
+        component: '@/pages/project',
       },
     ],
   },
