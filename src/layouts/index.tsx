@@ -1,10 +1,15 @@
 // 基础路由
-import React, { memo } from 'react';
+import React, { memo, useCallback } from 'react';
 import ProLayout, { PageContainer } from '@ant-design/pro-layout';
+import { history } from 'umi';
 import { routes } from '../../config/routes';
 import './index.less';
 
 const BaseLayout = (props: any) => {
+  const handleMenuJump = useCallback((item) => {
+    // console.log(item)
+    history.push(item.path);
+  }, []);
   return (
     <div className="layout-wrap">
       <ProLayout
@@ -13,6 +18,9 @@ const BaseLayout = (props: any) => {
         route={{
           routes: routes[0].routes,
         }}
+        menuItemRender={(item, dom) => (
+          <a onClick={() => handleMenuJump(item)}>{dom}</a>
+        )}
       >
         <PageContainer content="欢迎使用">{props.children}</PageContainer>
       </ProLayout>
