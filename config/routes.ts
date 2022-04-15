@@ -15,6 +15,12 @@ export const routes = [
         icon: 'icon-facebook',
         component: '@/pages/project',
       },
+      {
+        path: '/custom',
+        name: '客户信息',
+        icon: 'icon-facebook',
+        component: '@/pages/project',
+      },
     ],
   },
 ];
