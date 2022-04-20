@@ -23,7 +23,7 @@ const BaseLayout = (props: any) => {
     <div className="layout-wrap">
       <ProLayout
         title="装修报价"
-        iconfontUrl="//at.alicdn.com/t/font_8d5l8fzk5b87iudi.js"
+        iconfontUrl="//at.alicdn.com/t/font_3343436_lf9c3lkhprm.js"
         route={{
           routes: routes[0].routes,
         }}
