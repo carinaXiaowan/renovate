@@ -23,6 +23,7 @@ const BaseLayout = (props: any) => {
     <div className="layout-wrap">
       <ProLayout
         title="装修报价"
+        headerRender={false}
         iconfontUrl="//at.alicdn.com/t/font_3343436_lf9c3lkhprm.js"
         route={{
           routes: routes[0].routes,
@@ -31,7 +32,13 @@ const BaseLayout = (props: any) => {
           <a onClick={() => handleMenuJump(item)}>{dom}</a>
         )}
       >
-        <PageContainer>{props.children}</PageContainer>
+        <PageContainer
+          header={{
+            breadcrumb: {},
+          }}
+        >
+          {props.children}
+        </PageContainer>
       </ProLayout>
     </div>
   );
